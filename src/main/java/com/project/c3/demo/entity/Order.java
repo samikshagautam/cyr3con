@@ -3,13 +3,13 @@ package com.project.c3.demo.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order {
+public class Order implements IDInterface {
 
     private int id;
     private List<OrderItem> orderItems;
 
     public Order() {
-      orderItems = new ArrayList<>();
+        orderItems = new ArrayList<>();
     }
 
     public int getId() {

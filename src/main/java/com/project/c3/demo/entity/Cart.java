@@ -3,7 +3,7 @@ package com.project.c3.demo.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cart {
+public class Cart implements IDInterface {
 
     private int id;
     private List<CartItem> cartItems;

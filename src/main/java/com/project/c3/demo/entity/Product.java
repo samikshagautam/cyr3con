@@ -1,7 +1,7 @@
 package com.project.c3.demo.entity;
 
 
-public class Product {
+public class Product implements IDInterface {
 
     private int id;
     private String name;
